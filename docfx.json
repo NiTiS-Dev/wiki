@@ -51,9 +51,9 @@
         ],
         "content": [
             { "files": "articles/**.md" },
-            { "files": "**/api/**.yml", "src": "bin/" },
+            { "files": "bin/api/**.yml", "src": "bin/" },
             { "files": "*.md", "exclude": "README.md" },
-            { "files": "toc.yml", }
+            { "files": "**/toc.yml", }
         ],
         "dest": "_site/",
         "globalMetadata": {

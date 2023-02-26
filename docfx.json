@@ -6,7 +6,7 @@
                     "files": ["**/NiTiS.Core.csproj"]
                 }
             ],
-            "dest": "bin/api/Core",
+            "dest": "bin/api",
             "disableGitFeatures": false,
             "disableDefaultFilter": false,
             "properties": {
@@ -19,7 +19,7 @@
                     "files": ["**/NiTiS.Collections.csproj"]
                 }
             ],
-            "dest": "bin/api/Collections",
+            "dest": "bin/api",
             "disableGitFeatures": false,
             "disableDefaultFilter": false,
             "properties": {
@@ -32,7 +32,7 @@
                     "files": ["**/NiTiS.Math.csproj"]
                 }
             ],
-            "dest": "bin/api/Math",
+            "dest": "bin/api",
             "disableGitFeatures": false,
             "disableDefaultFilter": false,
             "properties": {
@@ -48,7 +48,7 @@
         },
         "content": [
             { "files": "articles/**.md" },
-            { "files": "bin/api/**.yml" },
+            { "files": "bin/api/**.yml", "dest": "api/" },
             { "files": "index.md" },
             { "files": "toc.yml" }
         ],

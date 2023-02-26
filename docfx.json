@@ -29,7 +29,7 @@
         ],
         "content": [
             {
-                "files": [ "**/index.md" ]
+                "files": [ "**/index.md", "**/toc.yml" ]
             },
             {
                 "files": [ "api/**.yml" ]

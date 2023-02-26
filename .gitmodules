@@ -1,0 +1,20 @@
+[submodule "NiTiS.Math"]
+	path = NiTiS.Math
+	url = https://github.com/NiTiS-Dev/NiTiS.Math
+	branch = dev
+[submodule "src"]
+	path = src
+	url = https://github.com/NiTiS-Dev/NiTiS.Math
+	branch = dev
+[submodule "ext/NiTiS.Math"]
+	path = ext/NiTiS.Math
+	url = https://github.com/NiTiS-Dev/NiTiS.Math
+	branch = dev
+[submodule "ext/NiTiS.Collections"]
+	path = ext/NiTiS.Collections
+	url = https://github.com/NiTiS-Dev/NiTiS.Collections
+	branch = dev
+[submodule "ext/NiTiS.Core"]
+	path = ext/NiTiS.Core
+	url = https://github.com/NiTiS-Dev/NiTiS.Core
+	branch = dev

@@ -48,7 +48,7 @@
         },
         "content": [
             { "files": "articles/**.md" },
-            { "files": "bin/api/**.yml", "dest": "../../api/" },
+            { "files": "bin/api/**.yml", "src": "bin/" },
             { "files": "index.md" },
             { "files": "toc.yml" }
         ],

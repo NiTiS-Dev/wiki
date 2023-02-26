@@ -1,20 +1,4 @@
 {
-    "build": {
-        "sitemap": {
-          "baseUrl": "https://NiTiS-Dev.github.io/wiki",
-          "priority": 0.1,
-          "changefreq": "weekly"
-        },
-        "content": [
-            { "files": "docs/**.md" },
-            { "files": "api/**.yml" }
-        ],
-        "dest": "_site/",
-        "globalMetadata": {
-            "_enableSearch": true,
-            "_gitContribute": { "branch": "web" }
-        }
-    },
     "metadata": [
         {
             "src": [
@@ -22,7 +6,9 @@
                     "files": ["**/NiTiS.Core.csproj"]
                 }
             ],
-            "dest": "api/core",
+            "dest": "bin/api/Core",
+            "disableGitFeatures": false,
+            "disableDefaultFilter": false,
             "properties": {
               "TargetFramework": "net7.0"
             }
@@ -33,7 +19,9 @@
                     "files": ["**/NiTiS.Collections.csproj"]
                 }
             ],
-            "dest": "api/collections",
+            "dest": "bin/api/Collections",
+            "disableGitFeatures": false,
+            "disableDefaultFilter": false,
             "properties": {
               "TargetFramework": "net7.0"
             }
@@ -44,10 +32,29 @@
                     "files": ["**/NiTiS.Math.csproj"]
                 }
             ],
-            "dest": "api/math",
+            "dest": "bin/api/Math",
+            "disableGitFeatures": false,
+            "disableDefaultFilter": false,
             "properties": {
               "TargetFramework": "net7.0"
             }
         }
-    ]
+    ],
+    "build": {
+        "sitemap": {
+          "baseUrl": "https://NiTiS-Dev.github.io/wiki",
+          "priority": 0.1,
+          "changefreq": "weekly"
+        },
+        "content": [
+            { "files": "articles/**.md" },
+            { "files": "bin/api/**.yml" },
+            { "files": "index.md" }
+        ],
+        "dest": "_site/",
+        "globalMetadata": {
+            "_enableSearch": true,
+            "_gitContribute": { "branch": "web" }
+        }
+    }
 }

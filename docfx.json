@@ -3,36 +3,14 @@
         {
             "src": [
                 {
-                    "files": ["**/NiTiS.Core.csproj"]
+                    "files": [
+                        "**/NiTiS.Core.csproj",
+                        "**/NiTiS.Collections.csproj",
+                        "**/NiTiS.Math.csproj"
+                    ]
                 }
             ],
-            "dest": "bin/api/Core",
-            "disableGitFeatures": false,
-            "disableDefaultFilter": false,
-            "properties": {
-              "TargetFramework": "net7.0"
-            }
-        },
-        {
-            "src": [
-                {
-                    "files": ["**/NiTiS.Collections.csproj"]
-                }
-            ],
-            "dest": "bin/api/Collections",
-            "disableGitFeatures": false,
-            "disableDefaultFilter": false,
-            "properties": {
-              "TargetFramework": "net7.0"
-            }
-        },
-        {
-            "src": [
-                {
-                    "files": ["**/NiTiS.Math.csproj"]
-                }
-            ],
-            "dest": "bin/api/Math",
+            "dest": "api",
             "disableGitFeatures": false,
             "disableDefaultFilter": false,
             "properties": {
@@ -50,10 +28,12 @@
             "https://xref.docs.microsoft.com/query?uid={uid}"
         ],
         "content": [
-            { "files": "articles/**.md" },
-            { "files": "bin/api/**.yml", "src": "bin/" },
-            { "files": "*.md", "exclude": "README.md" },
-            { "files": "**/toc.yml", }
+            {
+                "files": [ "**/index.md" ]
+            },
+            {
+                "files": [ "api/**.yml" ]
+            }
         ],
         "dest": "_site/",
         "globalMetadata": {

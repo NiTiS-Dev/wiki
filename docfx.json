@@ -42,13 +42,16 @@
     ],
     "build": {
         "sitemap": {
-          "baseUrl": "https://NiTiS-Dev.github.io/wiki",
+          "baseUrl": "https://nitis-dev.github.io/wiki",
           "priority": 0.1,
           "changefreq": "weekly"
         },
+        "xrefService": [
+            "https://xref.docs.microsoft.com/query?uid={uid}"
+        ],
         "content": [
             { "files": "articles/**.md" },
-            { "files": "bin/api/**.yml", "src": "bin/" },
+            { "files": "**/api/**.yml", "src": "bin/" },
             { "files": "index.md" },
             { "files": "toc.yml" }
         ],

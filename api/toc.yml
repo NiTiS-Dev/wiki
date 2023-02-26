@@ -1,6 +1,0 @@
-- name: Core
-  href: Core/NiTiS.Core.yml
-- name: Collections
-  href: Core/NiTiS.Collections.yml
-- name: Math
-  href: Math/NiTiS.Math.yml

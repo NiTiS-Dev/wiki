@@ -1,0 +1,53 @@
+{
+    "build": {
+        "sitemap": {
+          "baseUrl": "https://NiTiS-Dev.github.io/wiki",
+          "priority": 0.1,
+          "changefreq": "weekly"
+        },
+        "content": [
+            { "files": "docs/**.md" },
+            { "files": "api/**.yml" }
+        ],
+        "dest": "_site/",
+        "globalMetadata": {
+            "_enableSearch": true,
+            "_gitContribute": { "branch": "web" }
+        }
+    },
+    "metadata": [
+        {
+            "src": [
+                {
+                    "files": ["**/NiTiS.Core.csproj"]
+                }
+            ],
+            "dest": "api/core",
+            "properties": {
+              "TargetFramework": "net7.0"
+            }
+        },
+        {
+            "src": [
+                {
+                    "files": ["**/NiTiS.Collections.csproj"]
+                }
+            ],
+            "dest": "api/collections",
+            "properties": {
+              "TargetFramework": "net7.0"
+            }
+        },
+        {
+            "src": [
+                {
+                    "files": ["**/NiTiS.Math.csproj"]
+                }
+            ],
+            "dest": "api/math",
+            "properties": {
+              "TargetFramework": "net7.0"
+            }
+        }
+    ]
+}

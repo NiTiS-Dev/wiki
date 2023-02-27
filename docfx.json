@@ -32,7 +32,7 @@
                 "files": [ "**/index.md", "**/toc.yml" ]
             },
             {
-                "files": [ "api/**.yml" ]
+                "files": [ "api/**.yml", "articles/**.yml" ]
             }
         ],
         "dest": "_site/",

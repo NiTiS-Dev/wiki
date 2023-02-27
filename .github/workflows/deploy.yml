@@ -16,17 +16,27 @@ jobs:
     if: (github.event_name == 'push')
 
     steps:
+      - name: Update EXT directory
+        run: |
+          git submodule update --remote
+          
+      - name: Commit EXT directory
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: Show GitHub logo
+          committer_name: GitHub Actions
+          committer_email: github-actions[bot]@users.noreply.github.com
+          add: ext/**
+          
       - name: Checkout
         uses: actions/checkout@v3
-          
-      - name: Update submodules
-        run: git submodule update --remote
+        with:
+          submodules: recursive
 
-      - name: Install DocFX
-        run: choco install docfx -y
-
-      - name: Build
-        run: docfx docfx.json
+      - name: DocFX
+        run: |
+          choco install docfx -y
+          docfx docfx.json
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.9.2

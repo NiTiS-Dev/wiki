@@ -1,0 +1,742 @@
+{
+  "sitemap": {
+    "baseUrl": "https://nitis-dev.github.io/wiki/",
+    "changefreq": "weekly",
+    "priority": 0.1
+  },
+  "homepages": [],
+  "source_base_path": "D:/a/wiki/wiki",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Enumerable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Enumerable.html",
+          "hash": "+RhaGGlbLmTxNzAaYEzK7T/TPD9avbnEX+eNLJasHQ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.CachedDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.CachedDictionary-2.html",
+          "hash": "xWdGCa0citpXqIABhhzcik3vpcpc/qSrSGBLJR8vxpM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.Empty-1.EmptyEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.Empty-1.EmptyEnumerator.html",
+          "hash": "JDbgX0TZ6ZvsXMBTpJp1tpgAyIN2MQqVgwee6O28T1o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.Empty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.Empty-1.html",
+          "hash": "CAtR1OwvZQ9+zUQf6aZmrhKQJElHW3rcZ4StjvFEsRk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.SmartDictonary-2.KeyGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.SmartDictonary-2.KeyGetter.html",
+          "hash": "tG4/6n/+KcRUWVD6Bvhd5r/hCOUpW4g9ZNff1DEP0bk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.SmartDictonary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.SmartDictonary-2.html",
+          "hash": "d6WuvfBrs/BinF95fcbGNBzEE6tqlHCuQ9lCNxiLN2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.Stepped.ChangeStepBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.Stepped.ChangeStepBehaviour.html",
+          "hash": "9q6B1C/CBk4hkwqHnXH+MMc/2A7g09B+lQEAn8wC3WA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.Stepped.IReadOnlySteppedCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.Stepped.IReadOnlySteppedCollection.html",
+          "hash": "a6G85oWCC5SOthM5C4DvkuVJd0jcT5M6kcsYbVRMF8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.Stepped.ISteppedCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.Stepped.ISteppedCollection.html",
+          "hash": "2BRDu9J34HtkDHkqGdmjSVdDuLdM1Xl4etKUoOmL5xM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.Stepped.SteppedElement-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.Stepped.SteppedElement-1.html",
+          "hash": "vA5oVc3vyeyX9ijanbaero2vvv1UcFW9L5OHcMoqLCE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.Stepped.SteppedList-1.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.Stepped.SteppedList-1.Enumerator.html",
+          "hash": "kKWZBGbcm1YRRpr5FNvdZQ3YfQoyIV0aaeI8ze2zXR0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.Stepped.SteppedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.Stepped.SteppedList-1.html",
+          "hash": "2NLQnFw4rmqGF5Vgzkdw/9o/LA5k8o+C5aW0CzjQ5vY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.Stepped.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.Stepped.html",
+          "hash": "r1ljRSVIl6ktJhKh0oU9jcPCf9vqkTuMSKXRVlyLBQU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.Generic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.Generic.html",
+          "hash": "PNhdKffnd1wo6tUTE0pu/7lphSxOFKw7qxOsOsmPIz4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Collections.html",
+          "hash": "3QVGhOLNYTsYvD5hw6R1j2BR4GiaoM+kOU5wnxEsbGM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.Annotations.CallsOnlyByMainThreadAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.Annotations.CallsOnlyByMainThreadAttribute.html",
+          "hash": "s0vFH37xGdR35g/OIsgRsfqMyTkYpGTDTpLrRUgVy5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.Annotations.NotImplementYetAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.Annotations.NotImplementYetAttribute.html",
+          "hash": "bSAwnUBEmPMRmqR9uALe9EJTb6mXRBdhfHehCYKW97E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.Annotations.ObsoleteImplAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.Annotations.ObsoleteImplAttribute.html",
+          "hash": "tgdLOXqLhAx3xwQOb1j0bpBKVLKg1+8q0t0vNJkNAxg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.Annotations.RenameRequestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.Annotations.RenameRequestAttribute.html",
+          "hash": "zJDN4ziRAmesAjFmZKk20YLxtLHxi2l831oFmZ/GMfc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.Annotations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.Annotations.html",
+          "hash": "95t+l7j16bIDKTW9zy0pGKk5BnHLwWTFFyYmEtxFifk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.ReadOnlyRef-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.ReadOnlyRef-1.html",
+          "hash": "lvbqfTEW85ps0afMA9T7NLMXISvFYCYSkLzqiUIYNVw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.Ref-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.Ref-1.html",
+          "hash": "GWVJ2zBRZEvm9a5AOLVHCPKVHX7MC5yTc/m5OxZ88qc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.Strings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.Strings.html",
+          "hash": "/ny+tGTKsG26vahU8Wke3vrz/P6Nt3CzhgdXSuueDBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.Struct16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.Struct16.html",
+          "hash": "/GQ6njK6wF/4/Z79denc4eU/Untj/JMBZoZSXJzaLX8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.Struct32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.Struct32.html",
+          "hash": "6/jlP7ahpGT6wHVpg7R2zjk4c6osALuNjZU79XtW5SA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.Struct64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.Struct64.html",
+          "hash": "CxMVEhc+UdiWf0ITz780bLasppNzDyFhHLEqbnySqfc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.Struct8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.Struct8.html",
+          "hash": "ebTXtikGwHxn9ahE5gWVx3j4uR850A1+Ao/hEhnTHHU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.Types.html",
+          "hash": "tGkEknnVGa+8pmfv44ZIYU9Bbgz2+2Nnc2TjiNZkqEU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Core.html",
+          "hash": "M17uwYkDXW5h1yZFR6TmqVRJ5mXtFekWZOkGcShZTLw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Geometry.Box-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Geometry.Box-1.html",
+          "hash": "g+BANPaSWWbtJ9GSEb2glk/24cIggRxT6bcZ8XV6yAw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Geometry.Box.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Geometry.Box.html",
+          "hash": "GXsWUsDd/7e7vFsAMyco4Nrzf2eP8A6TBVYgf5DxZQc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Geometry.Plane-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Geometry.Plane-1.html",
+          "hash": "L913Y+2bdt/5V00XnKKqxDF2f26PVsp4u1vQuVwxvLY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Geometry.Plane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Geometry.Plane.html",
+          "hash": "Mo+tK5bovG+vUeWZRKBE/osRo7bl9h3I7JSk0IehKzw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Geometry.Quaternion-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Geometry.Quaternion-1.html",
+          "hash": "KQlVDWF6O0AqwO+Esy0nDl7vrh5/9nPNg1Wt2UA/GUw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Geometry.Quaternion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Geometry.Quaternion.html",
+          "hash": "0eEWgoEzhi7+8VJK/FBZcY5g48cFilRIJSmbyyWn3/k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Geometry.Region2d-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Geometry.Region2d-1.html",
+          "hash": "y/svpw5Fd4KycFf2+OvDpykmp3fTva/5bv7qINHWl/k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Geometry.Region2d.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Geometry.Region2d.html",
+          "hash": "lPaQKqc0FaAadKb++wUp8zrgsuaRFi41+9CRtuDXRYU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Geometry.Region3d-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Geometry.Region3d-1.html",
+          "hash": "8tzo1anwplqatsFOts8eOJ+YWr+PvRqJMsZCGzUG3cc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Geometry.Square-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Geometry.Square-1.html",
+          "hash": "GoDsn3oPCRG3/c9AbRL0RJeIiox91WkyC5LZ8i2hzy0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Geometry.Square.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Geometry.Square.html",
+          "hash": "GOacHl97gzKhGnegdPAlQu48KZoYbs6fQEqLus4S4QI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Geometry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Geometry.html",
+          "hash": "V2iWB55JxJLKDl6SQ6HYZcs6VByFVHY5NCoOcOam1DA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Matrices.Matrix2x2-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Matrices.Matrix2x2-1.html",
+          "hash": "WRHAF+nYaNfXVR+/2edjn7JnDucOGVDQ+K6oOzyygwE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Matrices.Matrix4x4-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Matrices.Matrix4x4-1.html",
+          "hash": "CXuPmsJvz70/9GXAUHzzck2ZTdQOtjxZUwtFzqSktw8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Matrices.Matrix4x4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Matrices.Matrix4x4.html",
+          "hash": "0jmdiKp2YsdK3G7+vNmlGCLdhoWBrIymG0VB6txcy68="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Matrices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Matrices.html",
+          "hash": "ti/MvDC9mZTO5X3eNKpwnRlFJq6xRZOKO2GZAM9m9xg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Scalar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Scalar.html",
+          "hash": "Xh1pFOnVzYGkbr5u9GxRBMlV6ImMWEruOvmtWvN9m44="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Vector2d-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Vector2d-1.html",
+          "hash": "oQ8fpb3dIppHkjUJn8FYNjtbb8n5dnPaNAx+U9zXcBE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Vector2d.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Vector2d.html",
+          "hash": "mS/l3MxSjcsCSboagcmpwJ3W8ss2cyFDaLIRT5DKMSk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Vector3d-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Vector3d-1.html",
+          "hash": "bzI4bmSrPqTEi7L1itfjXCF90ALL/hJS/HtXigG8p9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Vector3d.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Vector3d.html",
+          "hash": "mJTvSmEngaJYayja82PyHzl/QO93GdSRdbyTcCfu270="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Vector4d-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Vector4d-1.html",
+          "hash": "6cSYaFeoXfL3DDz5Ia+C2OaK4XGlp1whaSjvs2Lk7n8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.Vector4d.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.Vector4d.html",
+          "hash": "tlfNijIttEbzlhZdb/c/nznhHfo22zuXsNof9/H4TQc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NiTiS.Math.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NiTiS.Math.html",
+          "hash": "Shb8LHRNvXmlw8xA5fU/Pjj8a8qgKY3bQv8+wDKOAaE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "U+sYqeA8eadSyEr6exaHxSDJ0qqxHshAyOfvryJQFLg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/index.html",
+          "hash": "u65st9d5EWySSdL0skWZnFiS+FZzYz+cnlG5lyUdulA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "G8TrYB0eDXAJ5oXDI5Ik7TqdNC5HepHVPkgOwSl5fC0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 53,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
